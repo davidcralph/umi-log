@@ -8,9 +8,8 @@
     "test": "node test.js"
   },
   "keywords": [
-    "Umi",
-    "Sonoda",
-    "Logger"
+    "Logger",
+    "Console"
   ],
   "author": "ohlookitsderpy",
   "license": "MIT",
