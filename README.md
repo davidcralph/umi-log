@@ -6,6 +6,12 @@
 
 Lightweight, easy-to-use and customizable console logger. Inspired by https://github.com/ohlookitsAugust/sj.reggol!
 
+**Features**
+
+-Timestamp
+-Lightweight
+-Customizable
+
 **Installation**
 
 ``git clone https://github.com/ohlookitsderpy/umi-log.git``
