@@ -4,7 +4,7 @@
 
 # Umi-Log
 
-Lightweight, easy-to-use and customizable console logger
+Lightweight, easy-to-use and customizable console logger. Inspired by https://github.com/ohlookitsAugust/sj.reggol!
 
 **Installation**
 
