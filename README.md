@@ -21,11 +21,11 @@ Lightweight, easy-to-use and customizable console logger. Inspired by https://gi
 
 **Installation**
 
-``git clone https://github.com/ohlookitsderpy/umi-log.git``
+``npm install umi-log``
 
 **Usage**
 ```js
-const log = require("./log.js");
+const log = require("umi-log");
 
 log.notify("This is a test");
 log.warn("This is a test");
