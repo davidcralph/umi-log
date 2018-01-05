@@ -37,3 +37,7 @@ If you wish to contribute, please pull request this repo! I may not accept reque
 **License**
 
 MIT
+
+**Note**
+
+I do *not* the icon used, and this module is *not* affiliated with the Love Live! project.
