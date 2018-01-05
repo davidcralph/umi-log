@@ -4,7 +4,6 @@
   "description": "Lightweight, easy-to-use and customizable console logger.",
   "main": "log.js",
   "scripts": {
-    "start": "node log.js",
     "test": "node test.js"
   },
   "keywords": [
