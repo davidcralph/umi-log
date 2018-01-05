@@ -2,9 +2,9 @@
   "name": "umi-log",
   "version": "1.0.0",
   "description": "Lightweight, easy-to-use and customizable console logger.",
-  "main": "main.js",
+  "main": "log.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node log.js",
     "test": "node test.js"
   },
   "keywords": [
