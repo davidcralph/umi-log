@@ -21,3 +21,11 @@ log.debug("This is a test")
 log.custom("Test", "This is a test")
 ```
 (This file is the same as ``test.js``)
+
+**Contributing**
+
+If you wish to contribute, please pull request this repo! I may not accept requests which add more dependencies, as I tried to make this as lightweight as possible.
+
+**License**
+
+MIT
