@@ -1,0 +1,24 @@
+{
+  "name": "umi-log",
+  "version": "1.0.0",
+  "description": "Lightweight, easy-to-use and customizable console logger.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "Umi",
+    "Sonoda",
+    "Logger"
+  ],
+  "author": "ohlookitsderpy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohlookitsderpy/umi-log/isssues"
+  },
+  "homepage": "https://github.com/ohlookitsderpy/umi-log",
+  "dependencies": {
+    "ansi-styles": ">=3.2.0"
+  }
+}
