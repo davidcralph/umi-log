@@ -20,13 +20,13 @@ Lightweight, easy-to-use and customizable console logger. Inspired by https://gi
 
 **Usage**
 ```js
-const log = require("./log.js")
+const log = require("./log.js");
 
-log.notify("This is a test")
-log.warn("This is a test")
-log.error("This is a test")
-log.debug("This is a test")
-log.custom("Test", "This is a test")
+log.notify("This is a test");
+log.warn("This is a test");
+log.error("This is a test");
+log.debug("This is a test");
+log.custom("Test", "This is a test");
 ```
 (This file is the same as ``test.js``)
 
