@@ -8,9 +8,11 @@ Lightweight, easy-to-use and customizable console logger. Inspired by https://gi
 
 **Features**
 
--Timestamp
--Lightweight
--Customizable
+* Timestamp
+
+* Lightweight
+
+* Customizable
 
 **Installation**
 
