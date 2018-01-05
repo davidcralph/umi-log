@@ -1,4 +1,4 @@
-const style = require('ansi-styles');
+const style = require("ansi-styles");
 const d = new Date();
 const time = `[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}]`;
 
