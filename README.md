@@ -8,7 +8,7 @@ Lightweight, easy-to-use and customizable console logger. Inspired by https://gi
 
 **Installation**
 
-``npm install umi-log``
+``git clone https://github.com/ohlookitsderpy/umi-log.git``
 
 **Usage**
 ```js
