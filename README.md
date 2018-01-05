@@ -40,4 +40,4 @@ MIT
 
 **Note**
 
-I do *not* the icon used, and this module is *not* affiliated with the Love Live! project.
+I don't the icon used, and this module is not affiliated with the Love Live! project.
