@@ -33,7 +33,6 @@ log.error("This is a test");
 log.debug("This is a test");
 log.custom("Test", "This is a test");
 ```
-(This file is the same as ``test.js``)
 
 **Contributing**
 
