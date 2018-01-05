@@ -7,6 +7,7 @@
 Lightweight, easy-to-use and customizable console logger
 
 **Installation**
+
 ``npm install umi-log``
 
 **Usage**
