@@ -3,8 +3,8 @@ const d = new Date();
 const time = `[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}]`;
 
 class log {
-    static notify (message) {
-        return console.log(`${time} - ${style.bgGreen.open}NOTIFY${style.bgGreen.close}:`, `${style.green.open}${message}${style.green.close}`);
+    static info (message) {
+        return console.log(`${time} - ${style.bgGreen.open}INFO${style.bgGreen.close}:`, `${style.green.open}${message}${style.green.close}`);
     }
     static warn (message) {
         return console.log(`${time} - ${style.bgYellow.open}WARN${style.bgYellow.close}:`, `${style.yellow.open}${message}${style.yellow.close}`);
