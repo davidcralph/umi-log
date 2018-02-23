@@ -27,15 +27,12 @@ Lightweight, easy-to-use and customizable console logger. Inspired by https://gi
 const log = require("umi-log");
 
 log.info("This is a test");
+log.notify("This is a test");
 log.warn("This is a test");
 log.error("This is a test");
 log.debug("This is a test");
 log.custom("Test", "This is a test");
 ```
-
-**Contributing**
-
-If you wish to contribute, please pull request this repo! I may not accept requests which add more dependencies, as I tried to make this as lightweight as possible.
 
 **License**
 
