@@ -1,6 +1,6 @@
 {
   "name": "umi-log",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "Lightweight, easy-to-use and customizable console logger.",
   "main": "log.js",
   "readme": "README.md",
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/ohlookitsderpy/umi-log",
   "dependencies": {
-    "ansi-styles": ">=3.2.0"
+    "ansicolors": "0.3.2"
   }
 }
