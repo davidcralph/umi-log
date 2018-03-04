@@ -1,14 +1,14 @@
-const style = require("ansi-styles");
+const colors = require("ansicolors");
 const d = new Date();
 const time = `[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}]`;
 
 class log {
-    static info (message) { return console.log(`${time} - ${style.bgGreen.open}INFO${style.bgGreen.close}:`, `${style.green.open}${message}${style.green.close}`); }
-    static notify (message) { return console.log(`${time} - ${style.bgGreen.open}NOTIFY${style.bgGreen.close}:`, `${style.green.open}${message}${style.green.close}`); }
-    static warn (message) { return console.log(`${time} - ${style.bgYellow.open}WARN${style.bgYellow.close}:`, `${style.yellow.open}${message}${style.yellow.close}`); }
-    static error (message) { return console.log(`${time} - ${style.bgRed.open}ERROR${style.bgRed.close}:`, `${style.red.open}${message}${style.red.close}`); }
-    static debug (message) { return console.log(`${time} - ${style.bgMagenta.open}DEBUG${style.bgMagenta.close}:`, `${style.magenta.open}${message}${style.magenta.close}`); } 
-    static custom (title, message) { return console.log(`${time} - ${style.bgBlackBright.open}${title}${style.bgBlackBright.close}:`, `${style.white.open}${message}${style.white.close}`); }     
+    static info (message) { return console.log(`${time} - ${colors.bgGreen("INFO")}:`, `${colors.green(message)}`); }
+    static notify (message) { return console.log(`${time} - ${colors.bgGreen("INFO")}:`, `${colors.green(message)}`); }
+    static warn (message) { return console.log(`${time} - ${colors.bgYellow("WARN")}:`, `${colors.yellow(message)}`); }
+    static error (message) { return console.log(`${time} - ${colors.bgRed("ERROR")}:`, `${colors.red(message)}`); }
+    static debug (message) { return console.log(`${time} - ${colors.bgMagenta("DEBUG")}:`, `${colors.magenta(message)}`); } 
+    static custom (title, message) { return console.log(`${time} - ${colors.bgBrightBlack(title)}:`, `${colors.white(message)}`); }     
 }
 
 module.exports = log;
