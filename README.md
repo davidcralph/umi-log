@@ -24,11 +24,11 @@ Lightweight, easy-to-use and customizable console logger. Inspired by https://gi
 ```js
 const log = require("umi-log");
 
-log.info("This is a test");
-log.warn("This is a test");
-log.error("This is a test");
-log.debug("This is a test");
-log.custom("TEST", "This is a test");
+log.info("Test");
+log.warn("Test");
+log.error("Test");
+log.debug("Test");
+log.custom("TEST", "Test");
 ```
 
 **License**
