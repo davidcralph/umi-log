@@ -1,6 +1,6 @@
-var d = new Date();
-var t = `[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}]`;
-var c = console;
+var d = new Date(),
+    t = `[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}]`,
+    c = console;
 
 module.exports = class log {
     static info (m) { return c.log(`${t} - \x1b[42mINFO\x1b[0m: \x1b[32m${m}\x1b[0m`); }
