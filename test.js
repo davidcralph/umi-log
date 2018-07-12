@@ -1,4 +1,4 @@
-var log = require("./log.js");
+const log = require("./log.js");
 
 log.info("Test");
 log.warn("Test");
