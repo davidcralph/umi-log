@@ -1,4 +1,4 @@
-var d = new Date(),
+const d = new Date(),
     t = `[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}]`;
 
 module.exports = class log {
