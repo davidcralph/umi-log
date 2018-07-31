@@ -1,21 +1,13 @@
 {
   "name": "umi-log",
-  "version": "3.0.5",
+  "version": "3.0.4",
   "description": "Lightweight, easy-to-use and customizable console logger.",
   "main": "log.js",
   "readme": "README.md",
-  "scripts": { 
-    "test": "node test.js" 
-  },
-  "keywords": [
-    "logger", 
-    "console", 
-    "log"
-  ],
+  "scripts": { "test": "node test.js" },
+  "keywords": [ "logger",  "console", "log" ],
   "author": "ohlookitsderpy",
   "license": "MIT",
-  "bugs": { 
-    "url": "https://github.com/ohlookitsderpy/umi-log/issues" 
-  },
+  "bugs": { "url": "https://github.com/ohlookitsderpy/umi-log/issues" },
   "homepage": "https://github.com/ohlookitsderpy/umi-log"
 }
