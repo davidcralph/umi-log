@@ -18,7 +18,7 @@ Lightweight, easy-to-use and customizable console logger.
 
 **Installation**
 
-``npm install umi-log`` (or ``yarn add umi-log``)
+``npm install umi-log``
 
 **Usage**
 ```js
