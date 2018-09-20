@@ -16,11 +16,13 @@ Lightweight, easy-to-use and customizable console logger.
 
 * Customizable
 
+* (NEW) Hooks
+
 **Installation**
 
-``npm install umi-log``
+``npm install better-umi-log``
 
-**Usage**
+**Basic Usage**
 ```js
 const log = require("umi-log");
 
@@ -31,10 +33,19 @@ log.debug("Test");
 log.custom("TEST", "Test");
 ```
 
+**Hooks**
+
+As of version 3.1.0, you can now add hooks that run when the logger runs.
+```js
+const log = require("better-umi-log")
+
+log.addHook("info", m => console.log(`reusing the message: ${m}`)
+```
+
 **License**
 
 MIT
 
 **Note**
 
-I don't the icon used, and this module is not affiliated with the Love Live! project.
+I don't own the icon used, and this module is not affiliated with the Love Live! project.
