@@ -1,6 +1,6 @@
 {
   "name": "better-umi-log",
-  "version": "3.0.4",
+  "version": "3.1.0",
   "description": "Lightweight, easy-to-use and actually customizable console logger.",
   "main": "log.js",
   "readme": "README.md",
