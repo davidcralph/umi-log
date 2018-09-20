@@ -23,7 +23,7 @@ const log = class {
     }
 
     debug (m) { 
-        if (this.hooks.get("error")) this.hooks.get("error").call(this,m);
+        if (this.hooks.get("debug")) this.hooks.get("debug").call(this,m);
         return c.log(`${t} - \x1b[45mDEBUG\x1b[0m: \x1b[35m${m}\x1b[0m`);
     }
 
