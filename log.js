@@ -1,12 +1,12 @@
-var d = new Date(),
+let d = new Date(),
     t = `[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}]`,
     c = console;
 
 const log = class {
     constructor() {
-        this.hooks = new Map()
+        this.hooks = new Map();   
     }
-
+    
     info (m) { 
         if (this.hooks.get("info")) this.hooks.get("info").call(this,m);
         return c.log(`${t} - \x1b[42mINFO\x1b[0m: \x1b[32m${m}\x1b[0m`); 
@@ -27,12 +27,13 @@ const log = class {
         return c.log(`${t} - \x1b[45mDEBUG\x1b[0m: \x1b[35m${m}\x1b[0m`);
     }
 
-    custom (ti, m) { return c.log(`${t} - \x1b[100m${ti}\x1b[0m: ${m}`); }
+    custom (ti, m) { 
+        return c.log(`${t} - \x1b[100m${ti}\x1b[0m: ${m}`); 
+    }
     
     addHook (command, cb) { 
-        this.hooks.set(command,cb)
+        this.hooks.set(command,cb);
     }
-
 }
 
 module.exports = new log()
