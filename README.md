@@ -20,7 +20,7 @@ Lightweight, easy-to-use and customizable console logger.
 
 **Installation**
 
-``npm install better-umi-log``
+``npm install umi-log``
 
 **Basic Usage**
 ```js
@@ -33,11 +33,11 @@ log.debug("Test");
 log.custom("TEST", "Test");
 ```
 
-**Hooks**
+**Hooks Usage**
 
-As of version 3.1.0, you can now add hooks that run when the logger runs.
+As of version 4.0, you can now add hooks that run when the logger runs.
 ```js
-const log = require("better-umi-log")
+const log = require("umi-log");
 
 log.addHook("info", m => console.log(`reusing the message: ${m}`)
 ```
@@ -45,6 +45,10 @@ log.addHook("info", m => console.log(`reusing the message: ${m}`)
 **License**
 
 MIT
+
+**Credits**
+
+Yamboy1 - Hooks system
 
 **Note**
 
