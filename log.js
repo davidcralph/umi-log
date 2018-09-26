@@ -1,6 +1,8 @@
+const d = new Date();
 const log = class {
     constructor() {
         this.hooks = new Map();   
+        this.time = [`[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}]`];
     }
     
     info (m) { 
@@ -29,11 +31,6 @@ const log = class {
     
     addHook (command, cb) { 
         this.hooks.set(command,cb);
-    }
-    
-    time () {
-        const d = new Date();
-        return `[${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}]`;
     }
 }
 
