@@ -37,4 +37,4 @@ const log = class {
     }
 }
 
-module.exports = new log()
+module.exports = new log();
