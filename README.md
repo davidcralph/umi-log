@@ -1,3 +1,6 @@
+# DEPRECATED
+Use something better, like https://github.com/PassTheWessel/Pikmin or https://github.com/eartharoid/leeksLazyLogger
+
 <h1 align="center">
 <img src="https://i.imgur.com/EGufGSa.png" alt="Umi-Log">
 </h1>
